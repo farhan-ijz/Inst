@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Yaqeen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_signin">SigninActivity</string>
+
+    <string name="url_main">https://yaqeeninstitute.org</string>
+    <string name="url_token">https://yaqeeninstitute.org?oauth=token</string>
+    <string name="url_posts">https://yaqeeninstitute.org/wp-json/wp/v2/posts</string>
+
+
+    <!--Bottom Nav Names-->
+    <string name="nav_home">Home</string>
+    <string name="nav_section">Sections</string>
+    <string name="nav_profile">Profile</string>
+    <string name="title_activity_single_post">SinglePostActivity</string>
+    <string name="title_activity_research_posts">ResearchPostsActivity</string>
+
+</resources>

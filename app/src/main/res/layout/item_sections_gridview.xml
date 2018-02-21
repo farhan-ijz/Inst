@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.wurfel.yaqeen.inst.utils.SquareLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorMain"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5">
+
+                <ImageView
+                    android:id="@+id/itemImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_sections_article"
+                    android:padding="@dimen/_20sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="7.5">
+
+                <TextView
+                    android:id="@+id/itemTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:text="Publications"
+                    android:textColor="@color/colorSecondary"
+                    android:textSize="@dimen/_13sdp"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:paddingRight="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_comingSoon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhiteTransparent"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="COMING SOON..."
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</com.wurfel.yaqeen.inst.utils.SquareLinearLayout>

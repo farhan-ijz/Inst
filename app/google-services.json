@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "756717666760",
+    "firebase_url": "https://yaqeen-institute.firebaseio.com",
+    "project_id": "yaqeen-institute",
+    "storage_bucket": "yaqeen-institute.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756717666760:android:7e928c1a625b4f11",
+        "android_client_info": {
+          "package_name": "com.wurfel.yaqeen.inst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756717666760-hrov7v2325312v8cq96kitvrf0t9i67g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL6VUlyjch1YFhcy3sYRroME02fpFMtyc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

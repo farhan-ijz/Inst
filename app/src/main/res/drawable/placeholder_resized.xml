@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><shape ><stroke android:color="#000000" android:width="0dp" /></shape></item>
+    <item android:drawable="@drawable/ic_yakeen_placeholder"
+          android:layout_width="@dimen/_40sdp"
+          android:layout_height="@dimen/_40sdp"
+          android:gravity="center"
+        />
+</layer-list>-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape
+            android:shape="rectangle">
+
+            <size
+                android:width="@dimen/_25sdp"
+                android:height="@dimen/_25sdp"/>
+
+            <solid
+                android:color="#00FFFFFF"/>
+        </shape>
+    </item>
+
+    <item>
+
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_yakeen_placeholder"/>
+    </item>
+</layer-list>

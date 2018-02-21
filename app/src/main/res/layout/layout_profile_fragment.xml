@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.wurfel.yaqeen.inst.Activity.MainActivity"
+    android:background="@color/colorMain"
+    android:id="@+id/fragment_layout"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="As-salamu Alaykum,"
+            android:textStyle="bold"
+            android:textColor="@color/colorSecondary"
+            android:textSize="@dimen/_18sdp"
+            />
+
+        <TextView
+            android:id="@+id/textView_userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farrukh Javed"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_18sdp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_signout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:text="SIGN OUT"
+        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginRight="@dimen/_35sdp"
+        android:layout_above="@+id/textView_version"
+        android:background="@drawable/rounded_corner_button_orange"
+        android:layout_marginBottom="@dimen/_20sdp"/>
+
+    <TextView
+        android:id="@+id/textView_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_11sdp"
+        android:gravity="center"
+        android:text="App Version 1.0.0"
+        android:layout_above="@+id/textView_copyright"/>
+
+    <TextView
+        android:id="@+id/textView_copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_9sdp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="COPYRIGHT 2018, YAQEEN INSTITUTE FOR ISLAMIC RESEARCH"/>
+
+</RelativeLayout>

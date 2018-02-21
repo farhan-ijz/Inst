@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#16478A</color>
+    <color name="colorPrimaryDark">#16478A</color>
+    <color name="colorAccent">#F38E1C</color>
+
+
+    <color name="colorStatusBar">#16478A</color>
+    <!--blue color-->
+    <color name="colorMain">#16478A</color>
+    <!--orange color-->
+    <color name="colorSecondary">#F38E1C</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorloaderBg">#d0d0d0</color>
+    <color name="colorGrey">#9e9e9e</color>
+    <color name="colorWhiteTransparent">#e2a9b7ca</color>
+    <color name="colorLightBlue">#1DA1F2</color>
+
+    <!--for nav bottom-->
+    <array name="tab_colors">
+        <item name="tab_1">#455C65</item>
+        <item name="tab_2">#00886A</item>
+        <item name="tab_3">#8B6B62</item>
+    </array>
+</resources>
